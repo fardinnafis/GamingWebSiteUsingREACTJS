@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.navbar__ul li.active a {
+  color: #ff0000; /* Change to your desired color */
+  font-weight: bold;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.col-4{
+  width: 33.333333333333%;
+}
+.banner{
+  Width : 100%;
+  height: 100vh;
+  background: url("C:\nafis\gaming-website\public\img\bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: rgba(238, 218, 41, 0.959);
+
+}
+.banner__text{
+  width: 500px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  
+}
+.banner__text h3 {
+  color: rgb(0, 8, 4);
+  font-size: 30px;
+}
+.banner__text h1 {
+  color: black;
+  font-size: 45px;
+  font-weight: 800;
+}
+.banner__text p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.navbar__text{
+display: flex;
+height : 180px;
+align-items: center;
+
+}
+.logo{
+  width: 40%;
+  padding-bottom: 3%;
+}
+.navbar__ul{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  padding-right: 35px;
+  justify-content: right;
+  padding-bottom: 110px;
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: rgb(243, 208, 11);
+  padding: 0 15px;
+  font-weight: 700;
+  font-size: 130%;
+  text-transform: uppercase;
+}
+
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 60px;
+  font-weight: 800;
+  font-size: 140%;
+  
+}
+.btn-smart{
+  background-color: #f318aa;
+}
+.banner__btn{
+  padding-top: 20px;
+}
+
+.about{
+  padding: 80px 0;
+  background-color: rgb(55, 65, 126);
+}
+
+.about container{
+  color: #000000;
+}
+.row{
+  width: 100;
+  display: flex;
+}
+.col-6{
+  width: 50%;
+}
+.about h1{
+  padding-bottom: 15px;
+  font-size: 140%;
+}
+.about h3{
+  padding-bottom: 15px;
+  font-weight: 800;
+  font-size: 155%;
+}
+.about__btn{
+  padding-top: 20px;
+}
+.shop{
+  width: 100%;
+  background: url(C:\nafis\gaming-website\public\img\shop.jpg);
+  height: 400px;
+  background-attachment: fixed;
+}
+.shop__text{
+  display: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 110px;
+  
+}
+.shop__btn{
+  padding-left: 160px;
+  padding-top: 30px;
+}
+.shop__text h1{
+  font-weight: 900;
+}
+.list__btn{
+  padding-left: 500px;
+  padding-top: 50px;
+}
+.prices{
+  width: 100%;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background-image: url(C:\nafis\gaming-website\public\img\priceBG.jpg);
+  background-attachment: fixed;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+  
+ 
+  
+}
+
+.price_img{
+  width: 100%;
+}
+.price_img img{
+  width: 200px;
+}
+.price__heading{
+  margin-top: 20px;
+  font-size: 25px;
+  color: #f0bd15;
+}
+.price_text{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #f0bd15;
+}
+.price_tk{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #f0bd15;
+  font-weight: 600;
+}
+
+@media (max-width: 700px){
+  .navbar__text{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
